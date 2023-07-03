@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's Connect - Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-section">
+            <div class="presenting-text">Apeksha is presenting</div>
+            <div class="collage">
+                <div class="participant">
+                    <img src="./images/mainpic.jpg" alt="Participant 1">
+                    <div class="participant-name">Apeksha Gangurde</div>
+                    <div class="icons">
+                        <span class="emoji" title="Mute">🔇</span>
+                        <span class="emoji" title="Camera">🎥</span>
+                    </div>
+                </div>
+                <div class="participant">
+                    <img src="./images/manu.jpg" alt="Participant 2">
+                    <div class="participant-name">Mansi Joshi</div>
+                    <div class="icons">
+                        <span class="emoji" title="Mute">🔇</span>
+                        <span class="emoji" title="Camera">🎥</span>
+                    </div>
+                </div>
+                <div class="participant">
+                    <img src="./images/sam.jpg" alt="Participant 3">
+                    <div class="participant-name">Samrudhii mulay</div>
+                    <div class="icons">
+                        <span class="emoji" title="Mute">🔇</span>
+                        <span class="emoji" title="Camera">🎥</span>
+                    </div>
+                </div>
+                <div class="participant">
+                    <img src="./images/neh.jpg" alt="Participant 4">
+                    <div class="participant-name">Neha puri</div>
+                    <div class="icons">
+                        <span class="emoji" title="Mute">🔇</span>
+                        <span class="emoji" title="Camera">🎥</span>
+                    </div>
+                </div>
+                <div class="participant">
+                    <img src="./images/kan.jpg" alt="Participant 5">
+                    <div class="participant-name">Kanchan Suepkar</div>
+                    <div class="icons">
+                        <span class="emoji" title="Mute">🔇</span>
+                        <span class="emoji" title="Camera">🎥</span>
+                    </div>
+                </div>
+                <div class="participant">
+                    <img src="./images/sam3.jpg" alt="Participant 6">
+                    <div class="participant-name">Participant 6</div>
+                    <div class="icons">
+                        <span class="emoji" title="Mute">🔇</span>
+                        <span class="emoji" title="Camera">🎥</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <a href="chat.html" class="emoji" title="Chat">💬</a>
+            <button id="presentationButton" class="emoji" title="Presentation">🖥️</button>
+            <a href="./create-meeting.html" class="emoji" title="Call">📞</a>
+            <button id="muteButton" class="emoji" title="Mute">🔇</button>
+            <button id="participantsButton" class="emoji" title="Participants">👥</button>
+            <button id="reactButton" class="emoji" title="Reactions">😄</button>
+            <a href="create-meeting.html" class="emoji" title="Present">👩‍💼</a>
+        </div>
+
+        <div id="emojiPopup" class="emoji-popup">
+            <button class="emoji" onclick="sendEmoji('😀')">😀</button>
+            <button class="emoji" onclick="sendEmoji('😃')">😃</button>
+            <button class="emoji" onclick="sendEmoji('😄')">😄</button>
+            <button class="emoji" onclick="sendEmoji('😁')">😁</button>
+            <button class="emoji" onclick="sendEmoji('😆')">😆</button>
+            <!-- Add more emojis here -->
+            <button class="close-button" onclick="closeEmojiPopup()">Close</button>
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
